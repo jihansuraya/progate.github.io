@@ -17,6 +17,39 @@ a {
   text-decoration: none;
 }
 
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  z-index: 10;
+}
+
+.header-logo {
+  margin: 22px;
+  padding-left: 33px;
+  float:left;
+}
+
+.logo {
+  width: 124px;
+  
+}
+
+.login {
+  padding: 23px 25px;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  display: block;
+  margin-right: 65px;
+  transition: all 0.5s;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .container-top {
   background-size: cover;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
@@ -75,4 +108,97 @@ a {
 
 .fa {
   margin-right: 5px;
+}
+
+.learning-content {
+  height: 580px;
+  background-color: #f7f7f7;
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
+
+}
+
+h2 {
+  font-weight: normal;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+
+}
+
+.content {
+  float: left;
+  width: 25%;
+}
+
+.content-icon {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.content-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  font-size: 15px;
+  color: #b3aeb5;
+  width: 80%;
+  display: inline-block;
+}
+
+.message {
+  text-align: center;
+  padding-bottom: 90px;
+}
+.message h3 {
+  font-weight: normal;
+  color: #5f5d60;
+  margin-top: 60px;
+  font-size: 24.5px;
+}
+
+.message h4 {
+  color: #5f5d60;
+  margin-bottom: 45px;
+  opacity: 0.8;
+  font-size: 19px;
+}
+
+.button {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  color: white;
+  box-shadow: 0px 7px #1a7940;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  
+}
+
+
+footer {
+  padding-left: 55px;
+}
+.footer-logo {
+  border-top: 1px solid #eee;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 124px;
+}
+
+footer p {
+  font-size: 12px;
+  color: #b3aeb5;
 }
